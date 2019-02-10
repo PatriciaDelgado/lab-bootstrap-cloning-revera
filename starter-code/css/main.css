@@ -7,6 +7,61 @@
     max-width: 100%;
     line-height: 1;
 }
+/*Carousel arrows control*/
+.carousel-control{
+	width: 80px;
+}
+.carousel-control span{
+	background-color: #ed564b;
+	padding: 0 3px;
+}
+.left.carousel-control span{
+	left: 6%;
+	height: 80px;
+    width: 37px;
+}
+.right.carousel-control span{
+	right: 6%;
+	height: 80px;
+    width: 37px;
+}
+.glyphicon-chevron-right:before{
+	top: 22px;
+    position: absolute;
+    left: 5px;
+}
+.glyphicon-chevron-left:before {
+	top: 22px;
+    position: absolute;
+    right: 5px;
+}
+.carousel-text{
+	bottom: 50px;
+}
+.carousel-title{
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: lighter;
+}
+.carousel-description{
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: lighter;
+	margin-bottom: 25px;
+}
+.carousel-button{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	border: 2px solid white;
+	padding: 8px 15px;
+}
+.carousel-button:hover{
+	color: black;
+	text-decoration: none;
+	background-color: white;
+}
+
 
 .navbar {
 	margin-bottom: 0px !important;
@@ -14,9 +69,6 @@
 	background-color: #fff !important;
 	border-color: #fff !important;
 }
-
-
-
 .carousel-inner img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
@@ -47,7 +99,12 @@
 span {
 	padding-top: 10px;
 }
-
+.img-responsive{
+	margin-bottom: 15px;
+}
+.red-time{
+	color: red;
+}
 
 .first-container {
 	background: #ed564b;
